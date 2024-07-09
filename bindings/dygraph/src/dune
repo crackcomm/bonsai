@@ -1,5 +1,6 @@
 (library
  (name dygraph)
+ (public_name bonsai.dygraph)
  (preprocess
   (pps ppx_jane js_of_ocaml-ppx gen_js_api.ppx ppx_bonsai ppx_pattern_bind))
  (js_of_ocaml
